@@ -1,0 +1,46 @@
+.UI-button {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.UI-button.material-icons {
+  border-radius: 50%;
+}
+
+.UI-button.material-icons:active {
+  background: var(--color-grey-light);
+  border-radius: 50%;
+  transition: all 0.2s linear;
+}
+
+.UI-button span {
+  font-size: 1.5rem;
+}
+
+.UI-button.outlined {
+  background: none;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: 1px solid;
+  color: var(--color-white);
+}
+.UI-button:active {
+  transform: scale(0.95);
+}
+.UI-button:hover {
+  cursor: pointer;
+}
+
+.UI-button:disabled {
+  color: grey !important;
+  border-color: grey;
+}
+.UI-button.material-icons:focus {
+  padding: 0.5rem;
+  outline: none;
+}

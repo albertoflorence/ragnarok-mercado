@@ -1,0 +1,47 @@
+.item {
+  padding: 0 0.5rem 0 0.5rem;
+  display: grid;
+  margin-bottom: 1rem;
+  grid-template-columns:
+    minmax(min-content, 1rem)
+    minmax(min-content, 1fr)
+    minmax(min-content, 0.8fr)
+    1fr;
+  grid-template-areas:
+    'img name price amount'
+    'img options options options';
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.item-sold {
+  border: 1px solid rgba(221, 121, 28, 0.7);
+}
+
+.item-img {
+  grid-area: img;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.item-name {
+  grid-area: name;
+  text-align: left;
+  cursor: pointer;
+}
+.item-options {
+  grid-area: options;
+  text-align: left;
+  margin-top: 0.3rem;
+}
+.item-price {
+  grid-area: price;
+  text-align: right;
+}
+.item-amount {
+  grid-area: amount;
+  text-align: right;
+  padding-left: 1rem;
+}
+
+@media all and (max-width: 800px) {
+}

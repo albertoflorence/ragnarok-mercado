@@ -1,0 +1,33 @@
+.loja {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+  margin-bottom: 0.7rem;
+  padding: 0rem 0.2rem 1rem 0.2rem;
+  font-weight: bold;
+  animation: appear 0.1s ease-out;
+}
+
+.loja-items {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-top: 1rem;
+}
+.loja-local {
+  font-size: 0.7rem;
+  color: var(--color-grey-lighter);
+}
+.loja-vendedor {
+  font-size: 0.6rem;
+  color: var(--color-grey-lighter);
+  text-align: right;
+  padding: 0.15rem;
+}
+
+@keyframes appear {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}

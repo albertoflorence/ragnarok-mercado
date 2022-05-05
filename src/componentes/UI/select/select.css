@@ -1,0 +1,12 @@
+.UI-select {
+  padding: 0.2rem;
+  margin-bottom: 0.3rem;
+  color: inherit;
+  background: var(--color-primary);
+  outline: none;
+  width: 100%;
+}
+
+.UI-select > * {
+  background: var(--color-primary);
+}

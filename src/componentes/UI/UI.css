@@ -1,0 +1,8 @@
+.outlined {
+  background: none;
+  color: inherit;
+  background: none;
+  outline: 1px solid var(--color-grey-light);
+  border: none;
+  color: var(--color-white);
+}

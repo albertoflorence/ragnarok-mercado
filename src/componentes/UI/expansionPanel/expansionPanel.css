@@ -1,0 +1,10 @@
+.UI-expansionPanel {
+  border-bottom: 1px solid var(--color-grey-light);
+  overflow: hidden;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+  max-height: 0;
+}
+.UI-expansionPanel.open {
+  max-height: 14rem;
+}

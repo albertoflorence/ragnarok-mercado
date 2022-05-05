@@ -1,0 +1,13 @@
+.filter-container {
+  display: flex;
+  gap: 1rem;
+  height: 7rem;
+}
+
+.filter-form {
+  padding: 1rem;
+}
+
+.filter-select {
+  width: 8rem;
+}

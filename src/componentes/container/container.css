@@ -1,0 +1,6 @@
+.loja-container {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
